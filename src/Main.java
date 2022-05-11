@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Сумма на счете: " + (client + payment));
         if (payment > 1000) {
             System.out.println("Бонус:" + (payment + client) / 100);
+
         }
 
     }
